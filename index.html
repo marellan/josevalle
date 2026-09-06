@@ -4,6 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Jose Valle — Program Manager</title>
+<meta name="author" content="Jose Valle">
+<meta name="description" content="Jose Valle — Program/Project Manager. Readiness, launch execution, and cross-functional operations across enterprise tech deployments, commercial operations, and municipal services.">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jose Valle — Program/Project Manager">
+<meta property="og:description" content="Readiness, launch execution, and cross-functional operations across enterprise tech deployments, commercial operations, and municipal services.">
+<meta property="og:image" content="https://marellan.github.io/josevalle/og-image.png">
+<meta property="og:url" content="https://marellan.github.io/josevalle/jose-valle-portfolio.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jose Valle — Program/Project Manager">
+<meta name="twitter:description" content="Readiness, launch execution, and cross-functional operations across enterprise tech deployments, commercial operations, and municipal services.">
+<meta name="twitter:image" content="https://marellan.github.io/josevalle/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -42,13 +56,15 @@
   .hero .title{font-family:var(--display);font-size:clamp(20px,2.6vw,28px);line-height:1.2;letter-spacing:-0.01em;color:var(--accent);margin:10px 0 0;text-align:left;padding:0}
   .tagcards{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0}
   .tagcard{border:1px solid rgba(245,243,234,0.28);padding:8px 14px;font-family:var(--mono);font-size:12.5px;color:var(--white)}
-  .lede{font-size:clamp(17px,2vw,20px);line-height:1.6;max-width:640px;color:rgba(245,243,234,0.86);margin-top:8px}
-  .buttons{display:flex;flex-wrap:wrap;gap:12px;margin:34px 0 0}
-  .buttons a{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;text-decoration:none;font-size:14.5px;font-weight:500;
+  .lede{font-size:clamp(17px,2vw,20px);line-height:1.6;color:rgba(245,243,234,0.86);margin-top:8px}
+  .buttons{display:flex;flex-wrap:nowrap;gap:12px;margin:34px 0 0}
+  .buttons a{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 22px;text-decoration:none;font-size:14.5px;font-weight:500;white-space:nowrap;
     border:1px solid rgba(245,243,234,0.35)}
   .buttons a.primary{background:var(--accent);border-color:var(--accent);color:#171000}
   .buttons a.primary:hover{background:var(--accent-deep);border-color:var(--accent-deep)}
   .buttons a:not(.primary):hover{border-color:rgba(245,243,234,0.7)}
+  @media(max-width:600px){.buttons{flex-direction:column;flex-wrap:wrap;align-items:stretch}
+    .buttons a{width:100%}}
 
   /* hero stat strip */
   .statstrip{position:relative;margin-top:22px;border-top:1px solid rgba(245,243,234,0.22);
